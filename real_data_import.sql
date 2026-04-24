@@ -4,8 +4,8 @@
 -- تشغيل هذا الملف في: Supabase > SQL Editor > New Query > Run
 -- ================================================
 
--- تنظيف البيانات القديمة أولاً
-TRUNCATE TABLE payments, leases, units, properties, tenants, owners, expenses, maintenance_requests, complaints, invoices, documents RESTART IDENTITY CASCADE;
+-- تنظيف بيانات العقارات والوحدات فقط (دون المساس ببيانات المستأجرين والعقود والمالية)
+TRUNCATE TABLE units, properties RESTART IDENTITY CASCADE;
 
 -- ================================================
 -- العقارات (365 عقار)
