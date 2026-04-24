@@ -2,9 +2,12 @@
  * Supabase Client - رمز الإبداع
  *
  * للحصول على المفاتيح الصحيحة:
- *  1. افتح https://supabase.com/dashboard/project/nqpoktshudssuglgxmvp/settings/api
+ *  1. افتح https://supabase.com/dashboard/project/ndfuwaebrubtcbtqfzbj/settings/api
  *  2. انسخ "Project URL"  →  VITE_SUPABASE_URL
- *  3. انسخ "anon public" (يبدأ بـ eyJ)  →  VITE_SUPABASE_ANON_KEY
+ *  3. انسخ "anon public"  →  VITE_SUPABASE_ANON_KEY
+ *
+ * المشروع الحالي: ndfuwaebrubtcbtqfzbj
+ * URL: https://ndfuwaebrubtcbtqfzbj.supabase.co
  */
 import { createClient } from '@supabase/supabase-js';
 
