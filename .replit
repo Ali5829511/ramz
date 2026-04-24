@@ -1,0 +1,9 @@
+entrypoint = "npm run start"
+modules = ["nodejs-20"]
+
+[nix]
+channel = "unstable"
+
+[deployment]
+run = ["npm", "run", "build"]
+build = ["npm", "install"]
